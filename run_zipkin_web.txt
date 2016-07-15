@@ -1,0 +1,8 @@
+1. Start ZipkinWeb WEB
+
+java -jar zipkin-web-1.28.1-20160104.090947-7-all.jar -zipkin.web.port=:9401 -admin.port=:9098 -zipkin.web.rootUrl=/ -zipkin.web.query.dest=localhost:9411
+
+
+2. go to  http://localhost:9401/
+
+3. choose service
