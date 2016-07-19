@@ -15,6 +15,7 @@
         <module>stat-server</module>
         <module>gateway-server</module>
         <module>zipkin-server</module>
+        <module>city-server</module>
     </modules>
 
 
@@ -56,11 +57,10 @@
 
 
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/io.zipkin/zipkin-web -->
+
         <dependency>
-            <groupId>io.zipkin</groupId>
-            <artifactId>zipkin-web</artifactId>
-            <version>1.40.2</version>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
         </dependency>
 
     </dependencies>

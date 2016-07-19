@@ -1,0 +1,45 @@
+logging:
+  level:
+    com.netflix.discovery: 'OFF'
+    org.springframework.cloud: 'DEBUG'
+
+#management:
+#  context-path: /admin
+
+spring:
+  cloud:
+    config:
+      server:
+        prefix: /config
+        git:
+#         uri: https://github.com/spring-cloud-samples/config-repo
+          uri: https://github.com/brrshh/configuration/tree/master/config-server/src/main/resources/share-config
+          basedir: target/config
+
+
+
+#spring.profiles.active=default
+#spring.cloud.config.server.git:https://github.com/brrshh/configuration/tree/master/config-server/src/main/resources/share-config
+#spring.cloud.config.server.git=https://github.com/spring-cloud-samples/config-repo
+#spring.cloud.config.server.basedir=target/config
+
+
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+info:
+  app: ${spring.application.name}
+
+---
+spring:
+  profiles: native
+
+  cloud:
+    config:
+      server:
+        native:
+          searchLocations: classpath:/share-config
