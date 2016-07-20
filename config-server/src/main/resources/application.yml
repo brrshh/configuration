@@ -12,10 +12,10 @@ spring:
       server:
         prefix: /config
         git:
-#          uri: https://github.com/brrshh/configuration.git/config-repo
+          uri: https://github.com/brrshh/configuration.git
 #          uri:  https://github.com/spring-cloud-samples/config-repo
-          uri:  https://github.com/brrshh/cloud_configuration
-#          uri: https://github.com/brrshh/configuration/tree/master/config-server/src/main/resources/share-config
+#          uri:  https://github.com/brrshh/cloud_configuration
+          searchPath: tree/master/config-server/src/main/resources/share-config
           basedir: target/config
 
 #uri: https://github.com/brrshh/configuration/tree/master/config-server/src/main/resources/share-config
