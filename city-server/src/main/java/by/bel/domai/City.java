@@ -14,7 +14,7 @@ import java.util.Arrays;
 //                "pop": 5574,
 //                "loc": [        -74.016323,        40.710537        ]
 
-@Document
+@Document(collection = "cities")
 public class City {
 
     private Long id;

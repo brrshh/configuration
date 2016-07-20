@@ -37,13 +37,21 @@ eureka:
 info:
   app: ${spring.application.name}
 
-#---
-#spring:
-#  profiles: native
-#
-#  cloud:
-#    config:
-#      server:
-#        native:
-#          searchLocations: classpath:/share-config
-#
+---
+spring:
+  profiles: native
+
+  cloud:
+    config:
+      server:
+        prefix: /config
+        native:
+          searchLocations: classpath:/share-config
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+info:
+  app: ${spring.application.name}
