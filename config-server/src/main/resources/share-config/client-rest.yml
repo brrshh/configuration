@@ -1,6 +1,20 @@
-info.app=client-rest
+server:
+  port: 0
+
+info:
+  app: client-rest
 #eureka.instance.instanceId.applicationname=${spring.application.instance_id:${random.value}}
-client.messages=Messages from Client Server LOCALY
+client:
+  messages : Messages from Client Server LOCALY PROFILE DEFAULT !!!
 #eureka.client.serviceUrl.defaultZone: http://localhost:8761/eureka/
 #spring.cloud.stream.bindings.input=messages
+
+
 #spring.cloud.config.label=1.0
+
+---
+spring:
+  profiles : dev
+
+client:
+  messages : Messages from Client Server PROFILE DEV !

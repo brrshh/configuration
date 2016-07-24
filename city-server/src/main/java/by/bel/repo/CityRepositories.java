@@ -1,6 +1,6 @@
 package by.bel.repo;
 
-import by.bel.domai.City;
+import by.bel.domain.City;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 

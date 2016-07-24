@@ -1,0 +1,19 @@
+info:
+  app: city-repo
+
+spring:
+    data:
+      mongodb:
+        database : TEST1
+city:
+  mongo:
+    host : localhost
+    port: 27017
+#spring.data.mongodb.uri: mongodb://http://192.168.99.100:32768
+#spring.data.rest.basePath=/api
+
+#spring
+#  hystrix
+#    command
+#      default.execution.isolation.thread.timeoutInMilliseconds=3000
+#hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds=4000

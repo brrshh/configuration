@@ -14,21 +14,7 @@ spring:
         git:
           uri:  https://github.com/brrshh/cloud_configuration.git
           searchPath: config-repo
-#          uri: https://github.com/brrshh/configuration.git/config-server/src/main/resources/share-config
-#          searchPath: tree/master/config-server/src/main/resources/share-config
-#          searchPath:
           basedir: target/config
-
-#uri: https://github.com/brrshh/configuration/tree/master/config-server/src/main/resources/share-config
-
-
-#spring.profiles.active=default
-#spring.cloud.config.server.git:https://github.com/brrshh/configuration/tree/master/config-server/src/main/resources/share-config
-#spring.cloud.config.server.git=https://github.com/spring-cloud-samples/config-repo
-#spring.cloud.config.server.basedir=target/config
-
-
-
 
 eureka:
   client:

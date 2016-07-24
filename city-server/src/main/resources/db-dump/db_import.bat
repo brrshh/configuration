@@ -1,0 +1,1 @@
+d:\MongoDB\Server\3.0\bin\mongoimport --db TEST1 --collection cities --file D:\develop\workspace_idea\microservices-git\configuration-git\city-server\src\main\resources\db-dump\dump.json

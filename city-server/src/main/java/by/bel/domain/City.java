@@ -1,4 +1,4 @@
-package by.bel.domai;
+package by.bel.domain;
 
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.Field;

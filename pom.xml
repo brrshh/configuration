@@ -16,7 +16,7 @@
         <module>gateway-server</module>
         <module>zipkin-server</module>
         <module>city-server</module>
-        <module>web-ui</module>
+        <module>dashboard-server</module>
     </modules>
 
 
