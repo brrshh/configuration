@@ -1,0 +1,30 @@
+info:
+  app: book-repo
+
+logging:
+  level:
+    org:
+      springframework:
+        web:
+          filter : debug
+
+spring:
+    data:
+      mongodb:
+        database : test
+        port : 32768
+
+book:
+  mongo:
+    host : localhost
+    port : 32768
+
+#spring.data.mongodb.port=32768
+#spring.data.mongodb.uri: mongodb://http://192.168.99.100:32768
+#spring.data.rest.basePath=/api
+
+#spring
+#  hystrix
+#    command
+#      default.execution.isolation.thread.timeoutInMilliseconds=3000
+#hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds=4000

@@ -5,6 +5,7 @@ spring:
     data:
       mongodb:
         database : TEST1
+        port : 32768
 city:
   mongo:
     host : localhost
